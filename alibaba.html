@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <button onclick="dangnhap()">Đăng nhập</button>
+    <script>
+        function dangnhap(){
+            let password =prompt("Nhập mật khẩu để đăng nhập");
+            while (password !== "theanh") {
+                alert("sai rồi")
+                password =prompt("Nhập mật khẩu để đăng nhập");
+            }
+            alert("Đúng Rồi")
+        }
+
+    </script>
+</body>
+</html>
